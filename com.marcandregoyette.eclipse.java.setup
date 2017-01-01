@@ -1952,6 +1952,10 @@
           key="/instance/org.eclipse.wst.xml.core/indentationChar">
         <value>record</value>
       </detail>
+      <detail
+          key="/instance/org.sonarlint.eclipse.ui/markerSeverity">
+        <value>record</value>
+      </detail>
     </annotation>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -3957,6 +3961,14 @@
           key="/instance/org.eclipse.wst.xml.core/lineWidth"
           value="120"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.sonarlint.eclipse.ui">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.sonarlint.eclipse.ui/markerSeverity"
+          value="1"/>
+    </setupTask>
   </setupTask>
   <version name="neon"
       label="Neon"
@@ -4129,6 +4141,19 @@
           optional="true"/>
       <repository
           url="http://update.eclemma.org/"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="SonarLint for Eclipse"
+        licenseConfirmationDisabled="true">
+      <requirement
+          name="org.sonarlint.eclipse.feature.feature.group"
+          optional="true"/>
+      <requirement
+          name="org.sonarlint.eclipse.jdt.feature.feature.group"
+          optional="true"/>
+      <repository
+          url="http://eclipse.sonarlint.org/"/>
     </setupTask>
   </version>
   <description>My personal Eclipse setup for Java development.</description>

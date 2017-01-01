@@ -10,6 +10,10 @@ My personal Oomph setups for Eclipse.
   - [EGit](#egit)
 - [Additional plugins](#additional-plugins)
   - [Ansi Console](#ansi-console)
+  - [Buildship](#buildship)
+  - [Docker Tooling](#docker-tooling)
+  - [EclEmma Java Code Coverage](#eclemma-java-code-coverage)
+  - [SonarLint for Eclipse](#sonarlint-for-eclipse)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -87,3 +91,16 @@ Links:
 
 Installed Software:
 - EclEmma Java Code Coverage
+
+### SonarLint for Eclipse
+
+A static code analyzer for Java, JavaScript and PHP.
+
+Links:
+- [Web site](http://www.sonarlint.org/eclipse/)
+- [Marketplace](https://marketplace.eclipse.org/content/sonarlint)
+- [GitHub](https://github.com/SonarSource/sonarlint-eclipse)
+
+Installed Software:
+- SonarLint for Eclipse
+- SonarLint for Eclipse Java Configuration Helper
