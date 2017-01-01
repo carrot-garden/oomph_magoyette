@@ -36,6 +36,24 @@
           name="org.eclipse.rcp.feature.group"
           versionRange="[4.6.0,4.7.0)"/>
       <requirement
+          name="org.eclipse.datatools.common.doc.user.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.connectivity.doc.user.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.connectivity.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.doc.user.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.intro.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.modelbase.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqltools.doc.user.feature.group"/>
+      <requirement
           name="org.eclipse.egit.feature.group"/>
       <requirement
           name="org.eclipse.jdt.feature.group"/>
