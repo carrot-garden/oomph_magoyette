@@ -4120,6 +4120,16 @@
       <repository
           url="http://download.eclipse.org/releases/neon"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="EclEmma Java Code Coverage"
+        licenseConfirmationDisabled="true">
+      <requirement
+          name="com.mountainminds.eclemma.feature.feature.group"
+          optional="true"/>
+      <repository
+          url="http://update.eclemma.org/"/>
+    </setupTask>
   </version>
   <description>My personal Eclipse setup for Java development.</description>
 </setup:Product>

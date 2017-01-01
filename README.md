@@ -76,3 +76,14 @@ Links:
 Installed Software:
 - Docker Tooling
 
+### EclEmma Java Code Coverage
+
+A plugin for Java code coverage that uses JaCoCo.
+
+Links:
+- [Web site](http://www.eclemma.org/index.html)
+- [Marketplace](https://marketplace.eclipse.org/content/eclemma-java-code-coverage)
+- [GitHub](https://github.com/jacoco/eclemma)
+
+Installed Software:
+- EclEmma Java Code Coverage
