@@ -64,3 +64,15 @@ Links:
 
 Installed Software:
 - Buildship: Eclipse Plug-ins for Gradle
+
+### Docker Tooling
+
+A plugin to manage Docker images and containers.
+
+Links:
+- [Marketplace](https://marketplace.eclipse.org/content/eclipse-docker-tooling)
+- [User Guide](https://wiki.eclipse.org/Linux_Tools_Project/Docker_Tooling/User_Guide)
+
+Installed Software:
+- Docker Tooling
+
