@@ -4100,6 +4100,16 @@
       <repository
           url="http://www.mihai-nita.net/eclipse"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="Buildship"
+        licenseConfirmationDisabled="true">
+      <requirement
+          name="org.eclipse.buildship.feature.group"
+          optional="true"/>
+      <repository
+          url="http://download.eclipse.org/releases/neon"/>
+    </setupTask>
   </version>
   <description>My personal Eclipse setup for Java development.</description>
 </setup:Product>

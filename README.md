@@ -51,3 +51,16 @@ Links:
 
 Installed Software:
 - Ansi Console
+
+### Buildship
+
+Gradle support for Eclipse.
+
+Links:
+- [Marketplace](https://marketplace.eclipse.org/content/buildship-gradle-integration)
+- [GitHub](https://github.com/eclipse/buildship)
+- [Documentation](https://github.com/eclipse/buildship/blob/master/docs/user/README.md)
+- [Tutorial](http://www.vogella.com/tutorials/EclipseGradle/article.html)
+
+Installed Software:
+- Buildship: Eclipse Plug-ins for Gradle
