@@ -4090,6 +4090,16 @@
         option="-Xmx"
         value="2g"
         vm="true"/>
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="Ansi Console"
+        licenseConfirmationDisabled="true">
+      <requirement
+          name="net.mihai-nita.ansicon.feature.group"
+          optional="true"/>
+      <repository
+          url="http://www.mihai-nita.net/eclipse"/>
+    </setupTask>
   </version>
   <description>My personal Eclipse setup for Java development.</description>
 </setup:Product>
